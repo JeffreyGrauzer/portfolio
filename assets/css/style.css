@@ -1,0 +1,90 @@
+/* Attributes for header portion */
+
+header {
+    z-index: 9999;
+    padding: 20px 35px;
+    background-color:navy;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+header h1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color:paleturquoise;
+}
+
+h1 {
+    display: flex;
+    background-color:yellow;
+    height: 50px;
+    width: 250px;
+}
+
+header a {
+    text-decoration: none;
+    color:paleturquoise;
+    padding-right: 30px;
+    border-bottom: 3px solid paleturquoise;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+#header-photo {
+    display: flex;
+    flex-wrap: flex;
+    
+    
+}
+
+
+
+
+
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+#section-title {
+    width: 30%;
+    border-right: 3px solid royalblue;
+    flex-direction: row;
+    color:royalblue;
+    margin: 50px 50px 50px 50px;
+    
+    
+}
+
+#about-me-text {
+    width: 70%;
+    color:royalblue;
+    margin: 50px 50px 50px 50px;
+}
+
+.run-buddy-photo  {
+    display: flex;
+    flex-wrap: flex;
+}
+
+.horiseon-photo {
+    display: flex;
+    flex-wrap: flex;
+}
+
